@@ -1,14 +1,15 @@
-
 #include <iostream>
-#include "Pricer.cpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    
-    Pricer OptionBinaire;
-    OptionBinaire.priceBlackSholes();
-    
+    //table de multiplication
+    int i=0,j=1;
+    for(i=1; i<11; i++)	{
+        cout<<"Table de "<< i <<" : "<<endl;
+        for(j=1;j<11;j++)	{
+            cout<<i<<"*"<<j<<"="<<i*j<<endl;
+        }
+    }
     return 0;
 }
