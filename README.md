@@ -1,3 +1,3 @@
-# Option pricer
+# C++ Exercices
 
-My fisrt option pricer in C++
+Guetting started with c++
